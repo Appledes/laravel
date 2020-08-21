@@ -146,7 +146,6 @@ class UserAuthController extends Controller{
                 ->withInput();          
         }
 
-        
         //密碼加密
         $input['password']=Hash::make($input['password']);
 
